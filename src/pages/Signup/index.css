@@ -1,0 +1,76 @@
+.container {
+  
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
+  min-height: 600px;
+  margin: auto;
+}
+.message > p {
+  text-align: center;
+  font-family: Roboto Slab, serif;
+  color: #666349;
+  font-size: 16px;
+}
+
+p {
+  margin-top: -8px;
+}
+
+::placeholder{
+  color: #FCF2EB;
+  font-family: Glass Antiqua, serif;
+
+}
+h1 {
+  margin-top: 20px;
+  font-size: 56px;
+  color: #666349;
+
+  font-family: Roboto Slab, serif;
+  font-weight: lighter;
+  text-align: center;
+
+}
+input {
+  font-size: 20px;
+  margin-top: 4px;
+  color:#FCF2EB;
+  background-color: #89B0AE;
+  border: 0;
+  border-radius: 8px;
+  padding-left: 8px;
+  line-height: 1.5;
+
+
+}
+input:focus {
+  outline: none;
+}
+form {
+  display: flex;
+  height: 20%;
+  align-items: center;
+  width: 232px;
+  flex-direction: column;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.submit {
+  margin-top: 8px;
+  width: 50%;
+  background-color: #AD88AF;
+  font-family: Glass Antiqua, serif;
+  font-size: 24px;
+  padding: 0px;
+  cursor: pointer;
+}
+.submit:hover {
+  background-color: #856486
+}
+img {
+  
+  width: 208px;
+}
